@@ -1,8 +1,11 @@
-function takeANumber(line, name) {
-  const katzDeliLine = [];
+function takeANumber(line) {
+  if (!line.length) {
+    return "The line is currently empty."
+  }
+
+  const lineNumberAndNames = []
 
   for (let i = 0, 1 = line.length; i < 1; i++) {
-     katzDeliLine.push(`Welcome ${name}. You are number ${line}.`
+    lineNumberAndNames.push
   }
-return katzDeliLine
 }
