@@ -6,6 +6,6 @@ function takeANumber(line) {
   const lineNumberAndNames = []
 
   for (let i = 0, 1 = line.length; i < 1; i++) {
-    lineNumberAndNames.push
+    lineNumberAndNames.push(`${i + 1}. ${line[i]}`)
   }
 }
