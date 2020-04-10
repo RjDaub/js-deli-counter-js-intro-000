@@ -8,4 +8,5 @@ function takeANumber(line) {
   for (let i = 0, 1 = line.length; i < 1; i++) {
     lineNumberAndNames.push(`${i + 1}. ${line[i]}`)
   }
+  return `The line is currently: ${lineNumberAndNames.join(', ')}`
 }
